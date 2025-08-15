@@ -3,7 +3,8 @@
 
 import axios from "axios";
 
-const BASE_URL = "http://127.0.0.1:3001"; // Change to your API base URL
+//const BASE_URL = "http://127.0.0.1:3001"; // Change to your API base URL
+const BASE_URL = "https://v2qdzkm18k.execute-api.us-east-1.amazonaws.com/Prod"; // Change to your API base URL
 
 // Create Axios instance
 const api = axios.create({
